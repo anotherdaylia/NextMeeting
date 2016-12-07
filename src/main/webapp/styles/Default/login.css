@@ -1,0 +1,217 @@
+﻿
+/*--- Clear browser style ---*/
+td { padding: 0; margin: 0;} 
+th { padding: 0; margin: 0;} 
+blockquote { padding: 0; margin: 0;} 
+p { padding: 0; margin: 0;} 
+textarea { padding: 0; margin: 0;} 
+input { padding: 0; margin: 0;} 
+fieldset { padding: 0; margin: 0;} 
+form { padding: 0; margin: 0;} 
+pre { padding: 0; margin: 0;} 
+h6 { padding: 0; margin: 0;} 
+h5 { padding: 0; margin: 0;} 
+h4 { padding: 0; margin: 0;} 
+h3 { padding: 0; margin: 0;} 
+h2 { padding: 0; margin: 0;} 
+h1 { padding: 0; margin: 0;} 
+li { padding: 0; margin: 0;} 
+ol { padding: 0; margin: 0;} 
+ul { padding: 0; margin: 0;} 
+dd { padding: 0; margin: 0;} 
+dt { padding: 0; margin: 0;} 
+dl { padding: 0; margin: 0;} 
+div { padding: 0; margin: 0;} 
+body { padding: 0; margin: 0;} 
+table { border-collapse: collapse; border-spacing: 0;} 
+img { border: 0;} 
+fieldset { border: 0;} 
+var { font-weight: normal; font-style: normal;} 
+th { font-weight: normal; font-style: normal;} 
+strong { font-weight: normal; font-style: normal;} 
+em { font-weight: normal; font-style: normal;} 
+dfn { font-weight: normal; font-style: normal;} 
+code { font-weight: normal; font-style: normal;} 
+cite { font-weight: normal; font-style: normal;} 
+caption { font-weight: normal; font-style: normal;} 
+address { font-weight: normal; font-style: normal;} 
+ul { list-style: none;} 
+ol { list-style: none;} 
+th { text-align: left;} 
+caption { text-align: left;} 
+h6 { font-weight: normal; font-size: 100%;} 
+h5 { font-weight: normal; font-size: 100%;} 
+h4 { font-weight: normal; font-size: 100%;} 
+h3 { font-weight: normal; font-size: 100%;} 
+h2 { font-weight: normal; font-size: 100%;} 
+h1 { font-weight: normal; font-size: 100%;} 
+q:after { content:'';} 
+q:before { content:'';} 
+acronym { border: 0;}
+abbr { border: 0;}
+/*---去掉所有浏览器的默认样式 e---*/
+/*---消除浮动 b---*/
+.clearfix:after { content: "."; clear: both; height: 0; visibility: hidden; display: block;} /* 这是对Firefox进行的处理，因为Firefox支持生成元素，而IE所有版本都不支持生成元素.  :after 伪元素在元素内容之后插入内容。 */
+.clearfix {display: inline-block;}/* 这是对 Mac 上的IE浏览器进行的处理 */
+/**//* Hides from IE-mac \*/
+* html .clearfix {height: 1%;} /* 这是对win上的IE浏览器进行的处理 */
+.clearfix {display: block;} /* 这是对display: inline-block;进行的修改，重置为区块元素*/
+/**//* End hide from IE-mac */
+/*---消除浮动 e---*/
+/*--------------------------Add in 08072009    up--------------------*/
+body{
+text-align:center;
+font-size:12px;
+color:#163b67;
+}
+.container{
+/*padding-top:225px;*/
+padding-top:360px;
+width:100%;
+min-width: 1000px;
+margin-top:30px;
+position:relative;
+}
+.register-container{
+/*padding-top:225px;*/
+padding-top:360px;
+width:60%;
+min-width: 800px;
+margin:150px auto 0;
+position:relative;
+}
+.rules-container{
+/*padding-top:225px;*/
+padding-top:360px;
+width:60%;
+min-width: 800px;
+margin:0 auto 0;
+position:relative;
+}
+.login_area{
+width:100%;
+border-top:6px #e15613 solid;
+border-bottom:6px #e15613 solid;
+padding:50px 0;
+background-color:#feeabd;
+position:absolute;
+bottom:0;
+left:0;
+}
+.rules_area{
+width:100%;
+border-top:6px #e15613 solid;
+border-bottom:6px #e15613 solid;
+border-left: 6px #e15613 solid;
+border-right: 6px #e15613 solid;
+padding:20px 0;
+position:absolute;
+bottom:0;
+left:0;
+}
+.register_area{
+width:100%;
+border-top:6px #e15613 solid;
+border-bottom:6px #e15613 solid;
+border-left: 6px #e15613 solid;
+border-right: 6px #e15613 solid;
+padding:50px 0;
+background-color:#feeabd;
+position:absolute;
+bottom:0;
+left:0;
+}
+.login_area_content{
+width:1000px;
+margin:0 auto;
+}
+.register_area_content{
+width:700px;
+min-height: 200px;
+margin:0 auto;
+text-align: left;
+}
+.rule_content{
+width:700px;
+min-height: 200px;
+margin:0 auto;
+text-align: left;
+}
+.login_logo{
+width:485px;
+height:117px;
+background:transparent url('../images/logo2.png') no-repeat left bottom;
+position:absolute;
+left:500px;
+top:-123px;
+text-indent:-9999px;
+}
+.register_logo{
+width:485px;
+height:117px;
+background:transparent url('../images/logo2.png') no-repeat left bottom;
+position:absolute;
+left:270px;
+top:-123px;
+text-indent:-9999px;
+}
+.login_area_bottom{
+height:20px;
+line-height:20px;
+padding:0 40px;
+position:absolute;
+color:#89a5ca;
+right:35px;
+bottom:-27px;
+font-family: Arial, Helvetica, sans-serif;
+}
+.login_area_bottom_left{
+width:25px;
+height:20px;
+position:absolute;
+left:-5px;
+bottom:0;
+}
+.login_area_bottom_right{
+width:25px;
+height:20px;
+position:absolute;
+right:-25px;
+bottom:0;
+}
+.login_table input{
+margin:0;
+padding:0;
+width:175px;
+border:1px #2f4c83 solid;
+padding:3px 5px;
+background:#fff url('../images/login/index_bg5.jpg') repeat-x left bottom;
+}
+a.btn_login{
+cursor:pointer;
+display:block;
+width:67px;
+height:65px;
+margin:0;
+padding:0;
+border:none;
+}
+.login_text{
+display:none;
+}
+.login_table{
+margin:0 auto;
+}
+.login_table td{
+padding-right:10px;
+padding-bottom:3px;
+}
+.text_status{
+text-align:right;
+}
+.login_notice{
+color:#ff0000;
+float: left;
+bottom:0px;
+position:absolute;
+}
