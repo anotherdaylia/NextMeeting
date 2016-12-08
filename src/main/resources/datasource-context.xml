@@ -32,7 +32,9 @@
     </bean> 
                  
     <bean class="java.net.URI" id="dbUrl">
-        <constructor-arg value="#{systemEnvironment['CLEARDB_DATABASE_URL']}"/>
+        <constructor-arg value="#{systemEnvironment['DATABASE_URL']}"/>
+        <!-- export DATABASE_URL=mysql://root:root@localhost:3306/testdb -->
+        <!-- [database type]://[username]:[password]@[host]:[port]/[database name] -->
     </bean>
  
     <bean id="dataSource" class="org.apache.commons.dbcp.BasicDataSource" destroy-method="close">
