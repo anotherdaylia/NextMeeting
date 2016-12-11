@@ -4,7 +4,7 @@
 	<groupId>com.cmu</groupId>
 	<artifactId>nextmeeting</artifactId>
 	<packaging>war</packaging>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.0.2-SNAPSHOT</version>
 
 	<properties>
 		<org.springframework.version>3.1.1.RELEASE</org.springframework.version>
@@ -36,9 +36,6 @@
 			<id>bintray</id>
 		</profile>
 	</profiles>
-	<activeProfiles>
-		<activeProfile>bintray</activeProfile>
-	</activeProfiles>
 
 	<dependencies>
 		<dependency>
@@ -192,8 +189,8 @@
 			<plugin>
 				<artifactId>maven-compiler-plugin</artifactId>
 				<configuration>
-					<source>1.6</source>
-					<target>1.6</target>
+					<source>1.8</source>
+					<target>1.8</target>
 				</configuration>
 			</plugin>
 			<plugin>
