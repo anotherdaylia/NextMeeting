@@ -129,7 +129,7 @@ public class StudentController {
 			@RequestParam(value = "confirmPassword", required = false) String confirmPassword,
 			@RequestParam(value = "obey", required = false) String obey) {
 		User user = new User();
-		String users = userService.getAndrewList();
+		String users = "firani,haoranl,keweiw,abdullam,kunfengc,weihuac,yuancao,zhenc,prateekc,chenc2,shouconc,tongchen,cheny1,scui,bdagher,xiaoyand,zhouf,huiyingg,bguan,jingweih,singbunh,the,yutinghs,bingh,yanwenh,hhua,aayushj,asimj,skaneria,slale,xli,yingli1,ziliangl,chanhaol,shanshal,tlombard,yuema,qmi,kibongp,yananq,jiayuq,zqu,vivekrao,sarangr,ashahir,nsrinora,choonhut,sahilt,vvemuru,jingw5,qw1,wwang3,yajunw,zhenhuaw,nwu,zhenzhex,linyang,yifangy,boyu,zhimengy,xzeng,yzha,biaoz,yuanxinz,pinjingz,qzhen,tzheng";
 		if (users.isEmpty()) {
 			map.put("errorMessage",
 					"The andrew ID your provide is not allowed to register in our system");
